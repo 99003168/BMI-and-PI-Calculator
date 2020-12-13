@@ -1,0 +1,30 @@
+#Code1
+
+import re
+email = "karingulasneha@gmail.com"
+if re.match("[a-z 0-9]+@[a-z]+\.[a-z]{2,3}",email):
+    print("Email verified!")
+else:
+    print("Invalid Email!")
+
+#Code2
+
+import re
+#Check if the string starts with "The" and ends with "Spain":
+txt = "The rain in Spain"
+x = re.match("^The.*Spain$", txt)
+if x:
+  print("YES! We have a match!")
+else:
+  print("No match")
+
+#Code3
+
+import re
+
+#Return a list containing every occurrence of "ai":
+
+txt = "The rain in Spain"
+x = re.findall("", txt)
+print(x)
+
