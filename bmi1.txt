@@ -1,0 +1,5 @@
+For height: 1.87m For weight:76kg For height: 1.76m For weight:67kg For height: 1.76m For weight:67kg For height: 1.98m For weight:28kg Your BMI is 7.142128354249566 which means you are underweight.
+For height: 1.89m For weight:67kg Your BMI is 18.75647378292881 which means you are normal.
+For height: 1.78m For weight: 87kg Your PI is 15.426210230520773 which means you are overweight.
+For height: 1.56m For weight: 35kg Your BMI is 14.381985535831689 which means you are underweight.
+For height: 88inches For weight: 154pounds Your PI is 16.417578387029504 which means you are overweight.
