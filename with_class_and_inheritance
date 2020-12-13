@@ -92,9 +92,9 @@ while(1):
         age = input('Enter your age: ')  
         height = float(input('Enter your height in meters(decimals): '))
         weight = int(input('Enter your weight in kg: '))
-        f.writelines('For height: '+str(height)+"m"+' For weight:'+str(weight)+ "kg"+" ")
+        f.writelines('For height: '+str(height)+"m"+' For weight: '+str(weight)+ "kg"+" ")
         obj = Bmi_Pi(height, weight)
-        x = Employee(name,age)
+        x = Employee(name, age)
         x.printname() 
         obj.b_metric()
     elif(i == 'b_imperial'):  
@@ -102,7 +102,7 @@ while(1):
         age = input('Enter your age: ') 
         height = int(input('Enter your height in inches(whole number): '))
         weight = int(input('Enter your weight in pounds(whole number): '))
-        f.writelines('For height: '+str(height)+"inches"+' For weight:'+str(weight)+ "pounds"+" ")
+        f.writelines('For height: '+str(height)+"inches"+' For weight: '+str(weight)+ "pounds"+" ")
         obj = Bmi_Pi(height, weight)
         x = Employee(name, age)
         x.printname() 
@@ -113,7 +113,7 @@ while(1):
         age = input('Enter your age: ') 
         height = float(input('Enter your height in meters(decimals): '))
         weight = int(input('Enter your weight in kg: '))
-        f.writelines('For height: '+str(height)+"m"+' For weight:'+str(weight)+ "kg"+" ")
+        f.writelines('For height: '+str(height)+"m"+' For weight: '+str(weight)+ "kg"+" ")
         obj = Bmi_Pi(height, weight)
         x = Employee(name, age)
         x.printname() 
@@ -123,7 +123,7 @@ while(1):
         age = input('Enter your age: ') 
         height = int(input('Enter your height in inches(whole number): '))
         weight = int(input('Enter your weight in pounds(whole number): '))
-        f.writelines('For height: '+str(height)+"inches"+' For weight:'+str(weight)+ "pounds"+" ")
+        f.writelines('For height: '+str(height)+"inches"+' For weight: '+str(weight)+ "pounds"+" ")
         obj = Bmi_Pi(height, weight)
         x = Employee(name, age)
         x.printname() 
@@ -136,4 +136,3 @@ while(1):
     if(t == 'N'):
         f.close()
         break
-
